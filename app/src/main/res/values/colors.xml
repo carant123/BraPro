@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#207938</color>
+    <color name="colorPrimaryDark">#38a355</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#b7b7b7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="custom_theme_darker">#072f36</color>
+    <color name="custom_theme_dark">#0f5e6d</color>
+    <color name="custom_theme_primary">#199eb6</color>
+    <color name="custom_theme_light">#5ebbcb</color>
+    <color name="custom_theme_yellow">#EBB90C</color>
+    <color name="custom_theme_dark_green">#1E7D5B</color>
+    <color name="custom_theme_light_green">#17825F</color>
+
+
+    <integer-array name="custom_theme">
+        <item>@color/custom_theme_darker</item>
+        <item>@color/custom_theme_dark</item>
+        <item>@color/custom_theme_primary</item>
+        <item>@color/custom_theme_light</item>
+    </integer-array>
+
+
+</resources>

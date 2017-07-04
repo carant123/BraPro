@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lineal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/map_type_selector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"/>
+
+            <EditText
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_nome_sector"
+                android:layout_weight="0.4" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="@string/salvar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_salvar_sector"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/crear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_create_sector"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_delete_sector"
+                android:layout_weight="1"/>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_below="@id/lineal1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/colorPrimaryDark"
+        fab:fab_colorNormal="#43A047"
+        fab:fab_colorPressed="#2E7D32"
+        fab:fab_colorRipple="#1B5E20"
+        android:src="@mipmap/ic_plus_white_24dp"
+        android:layout_margin="8dp">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:fab_label="Salvar"
+            fab:fab_colorNormal="#43A047"
+            fab:fab_colorPressed="#2E7D32"
+            fab:fab_colorRipple="#1B5E20"
+            android:src="@mipmap/ic_plus_white_24dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:fab_label="Criar"
+            fab:fab_colorNormal="#43A047"
+            fab:fab_colorPressed="#2E7D32"
+            fab:fab_colorRipple="#1B5E20"
+            android:src="@mipmap/ic_refresh_white_24dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:fab_label="Excluir"
+            fab:fab_colorNormal="#43A047"
+            fab:fab_colorPressed="#2E7D32"
+            fab:fab_colorRipple="#1B5E20"
+            android:src="@mipmap/ic_refresh_white_24dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_btnRastreio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:fab_label="Rastreio"
+            fab:fab_colorNormal="#43A047"
+            fab:fab_colorPressed="#2E7D32"
+            fab:fab_colorRipple="#1B5E20"
+            android:src="@mipmap/ic_refresh_white_24dp"/>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

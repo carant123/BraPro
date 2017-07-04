@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "C:\\ProyectosLevel33\\ProyectoBraPro14\\SweetAlertDialog\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Carlos Antonio\\.android\\build-cache\\604e7644901ac8cdc2a88a3cd36b96b439891753\\output\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 54,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Level\\Desktop\\Proyectos\\ProyectoBraPro14\\SweetAlertDialog\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Level\\Desktop\\Proyectos\\ProyectoBraPro14\\SweetAlertDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 54,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

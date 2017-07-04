@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:text="@string/tx_producto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                tools:text="@string/tx_producto" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_tipo_producto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_tipo_producto"
+                    tools:text="@string/tx_tipo_producto" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/sp_form_producto_tipo_producto"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/tx_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_nombre"
+                    tools:text="@string/tx_nombre" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_nombre"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_fecha_expiracion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_fecha_expiracion"
+                    tools:text="@string/tx_fecha_expiracion" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_fecha_expiracion"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_funcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_funcion"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_funcion"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_descripcao"
+                    tools:text="@string/tx_descripcion" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_descripcao"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_composicion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_composicion"
+                    tools:text="@string/tx_composicion" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_composicion"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_objeto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_objeto"
+                    tools:text="@string/tx_objeto" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_objeto"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_lote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_lote"
+                    tools:text="@string/tx_lote" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_lote"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_custo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_custo"
+                    tools:text="@string/tx_custo" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_custo"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_kilos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_producto_kilos"
+                    tools:text="@string/tx_custo" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_producto_kilos"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style2"
+                android:id="@+id/bt_salvar_producto" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

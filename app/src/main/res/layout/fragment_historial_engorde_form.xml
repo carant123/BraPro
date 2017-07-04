@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:text="@string/tx_registro_engorde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                tools:text="@string/tx_registro_engorde" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/tx_peso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_historial_engorde_peso"
+                    tools:text="@string/tx_peso" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_historial_engorde_peso"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_data_medicao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_historial_engorde_fecha"
+                    tools:text="@string/tx_descripcion" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_historial_engorde_fecha"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style2"
+                android:id="@+id/bt_salvar_historial_engorde" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

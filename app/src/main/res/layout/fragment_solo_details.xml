@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundetail"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:text="@string/tx_solo_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textSize="36dp"
+                android:padding="5dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                tools:text="@string/tx_solo_detail" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_solo_details_sector" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_solo_details_data" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_elemento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_elemento"
+                    tools:text="@string/tx_elemento"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tx_valor"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_dato"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="@string/tx_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_status"
+                    tools:text="@string/tx_status"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_fosforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_fosforo"
+                    tools:text="@string/tx_fosforo" />
+
+                <TextView
+                    android:text="@string/tx_fosforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_fosforo_value"
+                    tools:text="@string/tx_fosforo" />
+
+                <TextView
+                    android:text="@string/tx_fosforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_fosforo__status"
+                    tools:text="@string/tx_fosforo" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_potasio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_potasio"
+                    tools:text="@string/tx_potasio" />
+
+                <TextView
+                    android:text="@string/tx_potasio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_potasio_value"
+                    tools:text="@string/tx_potasio" />
+
+                <TextView
+                    android:text="@string/tx_potasio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_potasio_status"
+                    tools:text="@string/tx_potasio" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_calcio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_calcio"
+                    tools:text="@string/tx_calcio" />
+
+                <TextView
+                    android:text="@string/tx_calcio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_calcio_value"
+                    tools:text="@string/tx_calcio" />
+
+                <TextView
+                    android:text="@string/tx_calcio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_calcio_status"
+                    tools:text="@string/tx_calcio" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_magnesio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_magnesio"
+                    tools:text="@string/tx_magnesio" />
+
+                <TextView
+                    android:text="@string/tx_magnesio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_magnesio_value"
+                    tools:text="@string/tx_magnesio" />
+
+                <TextView
+                    android:text="@string/tx_magnesio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_magnesio_status"
+                    tools:text="@string/tx_magnesio" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_aluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_aluminio"
+                    tools:text="@string/tx_aluminio" />
+
+                <TextView
+                    android:text="@string/tx_aluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_aluminio_value"
+                    tools:text="@string/tx_aluminio" />
+
+                <TextView
+                    android:text="@string/tx_aluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_aluminio_status"
+                    tools:text="@string/tx_aluminio" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_material_organico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_material_organico"
+                    tools:text="@string/tx_material_organico" />
+
+                <TextView
+                    android:text="@string/tx_material_organico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/tv_solo_details_material_organico_value"
+                    tools:text="@string/tx_material_organico" />
+
+                <TextView
+                    android:text="@string/tx_material_organico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_material_organico_status"
+                    tools:text="@string/tx_material_organico" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_hidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_hidrogeno"
+                    tools:text="@string/tx_hidrogeno" />
+
+                <TextView
+                    android:text="@string/tx_hidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_hidrogeno_value"
+                    tools:text="@string/tx_hidrogeno" />
+
+                <TextView
+                    android:text="@string/tx_hidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_hidrogeno_status"
+                    tools:text="@string/tx_hidrogeno" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_ph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_ph"
+                    tools:text="@string/tx_ph" />
+
+                <TextView
+                    android:text="@string/tx_ph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_ph_value"
+                    tools:text="@string/tx_ph" />
+
+                <TextView
+                    android:text="@string/tx_ph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_solo_details_ph_status"
+                    tools:text="@string/tx_ph" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:baselineAligned="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:text="@string/tx_consulta_solo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                tools:text="@string/tx_consulta_solo" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/tx_sector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_solo_sector"
+                    tools:text="@string/tx_sector" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/sp_form_solo_sector"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/tx_data_consulta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:id="@+id/tv_form_solo_data"
+                    tools:text="@string/tx_data_consulta" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:layout_weight="1"
+                    android:id="@+id/et_form_solo_data"
+                    android:layout_marginBottom="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/tx_elemento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_elemento"
+                    tools:text="@string/tx_elemento"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tx_valor"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_dato"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="@string/tx_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_header_status"
+                    tools:text="@string/tx_status"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_fosforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_fosforo"
+                    tools:text="@string/tx_fosforo" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" mg dm-3"
+                    android:id="@+id/et_form_solo_fosforo"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_fosforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_fosforo_status"
+                    tools:text="@string/tx_fosforo" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_potasio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_potasio"
+                    tools:text="@string/tx_potasio" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" mg dm-3"
+                    android:id="@+id/et_form_solo_potasio"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_potasio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_potasio_status"
+                    tools:text="@string/tx_potasio" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_calcio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_calcio"
+                    tools:text="@string/tx_calcio" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" cmolc dm-3"
+                    android:id="@+id/et_form_solo_calcio"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_calcio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_calcio_status"
+                    tools:text="@string/tx_calcio" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_magnesio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_magnesio"
+                    tools:text="@string/tx_magnesio" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" cmolc dm-3"
+                    android:id="@+id/et_form_solo_magnesio"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_magnesio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_magnesio_status"
+                    tools:text="@string/tx_magnesio" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_aluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_aluminio"
+                    tools:text="@string/tx_aluminio" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" cmolc dm-3"
+                    android:id="@+id/et_form_solo_aluminio"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_aluminio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_aluminio_status"
+                    tools:text="@string/tx_aluminio" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_material_organico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_material_organico"
+                    tools:text="@string/tx_material_organico" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="1"
+                    android:hint=" g kg-1"
+                    android:id="@+id/et_form_solo_material_organico"
+                    android:layout_marginBottom="20dp"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/sp_form_solo_material_organico"/>
+
+                <TextView
+                    android:text="@string/tx_material_organico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_material_organico_status"
+                    tools:text="@string/tx_material_organico" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_hidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_hidrogeno"
+                    tools:text="@string/tx_hidrogeno" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" pH H20"
+                    android:id="@+id/et_form_solo_hidrogeno"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_hidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_hidrogeno_status"
+                    tools:text="@string/tx_hidrogeno" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/tx_ph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_ph"
+                    tools:text="@string/tx_ph" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="2"
+                    android:hint=" pH Cacl2"
+                    android:id="@+id/et_form_solo_ph"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:text="@string/tx_ph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:id="@+id/tv_form_solo_ph_status"
+                    tools:text="@string/tx_ph" />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:text="@string/salvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/bt_salvar_solo"
+                tools:text="@string/salvar" />
+
+            <Button
+                android:text="@string/tx_generar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/bt_generar_solo"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style2"
+                tools:text="@string/tx_generar" />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

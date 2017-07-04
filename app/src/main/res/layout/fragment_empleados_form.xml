@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/tx_NovoEmpleado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="50dp"
+                tools:text="@string/tx_NovoEmpleado" />
+
+            <TextView
+                android:text="@string/tx_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_nome"
+                tools:text="@string/tx_nombre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_nome"/>
+
+            <TextView
+                android:text="@string/tx_fecha_contratacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_fecha_contrata"
+                tools:text="@string/tx_fecha_contratacion" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textIsSelectable="true"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_fecha_contrata"/>
+
+            <TextView
+                android:text="@string/tx_edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_edad"
+                tools:text="@string/tx_edad" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_edad"/>
+
+            <TextView
+                android:text="@string/tx_rol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_rol"
+                tools:text="@string/tx_rol" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_rol"/>
+
+            <TextView
+                android:text="@string/tx_contacto_numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_contacto"
+                tools:text="@string/tx_contacto_numero" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_contacto" />
+
+            <TextView
+                android:text="@string/tx_salario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_salario"
+                tools:text="@string/tx_salario" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_salario"/>
+
+
+            <TextView
+                android:text="@string/tx_fin_de_contrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_empleado_fin_de_contrato"
+                tools:text="@string/tx_fin_de_contrato" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textIsSelectable="true"
+                android:ems="10"
+                android:id="@+id/et_form_empleado_fin_de_contrato"/>
+
+            <TextView
+                android:text="@string/tx_tipo_contrato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:id="@+id/tv_form_empleado_tipo_contrato"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_form_empleado_tipo_contrato"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"/>
+
+<!--            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:text="@string/tx_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="2"
+                    android:id="@+id/bt_empleado_photo"
+                    tools:text="@string/tx_photo" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/iv_empleado_photo"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>-->
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_salvar_empleado"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style2"
+        tools:text="@string/salvar" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

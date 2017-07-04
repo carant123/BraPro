@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/tx_NovoMaquinaria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="50dp"
+                tools:text="@string/tx_NovoMaquinaria" />
+
+            <TextView
+                android:text="@string/tx_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_nome"
+                tools:text="@string/tx_nombre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_nome"/>
+
+            <TextView
+                android:text="@string/tx_registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_registro"
+                tools:text="@string/tx_registro" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_registro"/>
+
+            <TextView
+                android:text="@string/tx_fecha_adquisicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_fecha_adqui"
+                tools:text="@string/tx_fecha_adquisicion" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textIsSelectable="true"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_fecha_adqui"/>
+
+            <TextView
+                android:text="@string/tx_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_precio"
+                tools:text="@string/tx_precio" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_precio"
+                android:inputType="number" />
+
+            <TextView
+                android:text="@string/tx_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_tipo"
+                tools:text="@string/tx_tipo" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_tipo"/>
+
+            <TextView
+                android:text="@string/tx_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_descripcion"
+                tools:text="@string/tx_descripcion" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_descripcion"/>
+
+            <TextView
+                android:text="@string/tx_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_modelo"
+                tools:text="@string/tx_modelo" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_modelo"/>
+
+            <TextView
+                android:text="@string/tx_custo_mantenimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_costo_mantenimiento"
+                tools:text="@string/tx_custo_mantenimento" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_costo_mantenimiento"/>
+
+            <TextView
+                android:text="@string/tx_vida_util"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_vida_util_horas"
+                tools:text="@string/tx_vida_util" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_vida_util_horas"/>
+
+            <TextView
+                android:text="@string/tx_vida_util_ano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_vida_util_ano"
+                tools:text="@string/tx_vida_util" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_vida_util_ano"/>
+
+            <TextView
+                android:text="@string/tx_potencia_maquinaria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_potencia_maquinaria"
+                tools:text="@string/tx_vida_util" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_form_maquinaria_potencia_maquinaria"/>
+
+            <TextView
+                android:text="@string/tx_tipo_adquisicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_form_maquinaria_tipo_adquisicion"
+                tools:text="@string/tx_vida_util" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/sp_form_maquinaria_tipo_adquisicion"/>
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style2"
+                android:id="@+id/bt_salvar_maquinaria"
+                tools:text="@string/salvar" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

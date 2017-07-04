@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">BraPro</string>
+
+<!--    192.168.25.38/oi
+    201.24.26.23/brapro-->
+    <!--webservices-->
+    <string name="ConsultaItemsMenu">http://201.24.26.23/brapro/wsSegurancaBraPro/api/Seguranca/ConsultaItemsMenu</string>
+
+    <string name="Login">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/Login</string>
+    <string name="ConsultaSectores">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaSectores</string>
+    <string name="ConsultaCosechas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaCosechas</string>
+    <string name="ManutencaoCosechas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoCosechas</string>
+    <string name="ConsultaCultivos">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaCultivos</string>
+    <string name="ConsultaCultivosDetalle">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaCultivosDetalle</string>
+    <string name="ManutencaoCultivos">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoCultivos</string>
+    <string name="ConsultaPlagas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaPlagas</string>
+    <string name="ConsultaCotacoes">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaCotacoes</string>
+    <string name="ConsultaClientes">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaClientes</string>
+    <string name="ManutencaoClientes">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoClientes</string>
+    <string name="ConsultaMaquinarias">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaMaquinarias</string>
+    <string name="ManutencaoMaquinarias">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoMaquinarias</string>
+    <string name="ConsultaEmpleados">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaEmpleados</string>
+    <string name="ManutencaoEmpleados">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoEmpleados</string>
+    <string name="ConsultaAlertaPlagas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaAlertaPlagas</string>
+    <string name="ManutencaoAlertaPlagas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoAlertaPlagas</string>
+    <string name="ConsultaVisitas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaVisitas</string>
+    <string name="ManutencaoVisitas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoVisitas</string>
+    <string name="ConsultaNegociacoes">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaNegociacoes</string>
+    <string name="ManutencaoNegociacoes">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoNegociacoes</string>
+    <string name="ConsultaProducto">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaProducto</string>
+    <string name="ConsultaTipoProducto">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTipoProducto</string>
+    <string name="ConsultaTaxas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTaxas</string>
+    <string name="ConsultaPrecos">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaPrecos</string>
+    <string name="ManutencaoProductos">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoProductos</string>
+    <string name="ConsultaPremios">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaPremios</string>
+    <string name="ManutencaoPremios">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoPremios</string>
+    <string name="ManutencaoDespesas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoDespesas</string>
+    <string name="ConsultaDespesas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaDespesas</string>
+    <string name="ManutencaoMensagems">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoMensagems</string>
+    <string name="ConsultaMensagens">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaMensagens</string>
+    <string name="ManutencaoPontoInteresse">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoPontoInteresse</string>
+    <string name="ConsultaPontosInteresse">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaPontosInteresse</string>
+    <string name="ManutencaoTareas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoTareas</string>
+    <string name="ConsultaTareas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTareas</string>
+    <string name="ConsultaTipoTarea">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTipoTarea</string>
+    <string name="ConsultaBalance">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaBalance</string>
+    <string name="ConsultaMenu">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaMenu</string>
+    <string name="ConsultaTipoContrato">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTipoContrato</string>
+    <string name="ConsultaTipoDespesa">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTipoDespesa</string>
+    <string name="ConsultaTipoDespesaTempo">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaTipoDespesaTempo</string>
+    <string name="ConsultaLotegado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaLotegado</string>
+    <string name="ManutencaoLotegado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoLotegado</string>
+    <string name="ConsultaGado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaGado</string>
+    <string name="ManutencaoGado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoGado</string>
+    <string name="ConsultaHistorialConsumo">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaHistorialConsumo</string>
+    <string name="ManutencaoHistorialConsumo">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoHistorialConsumo</string>
+    <string name="ConsultaHistorialEngorde">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaHistorialEngorde</string>
+    <string name="ManutencaoHistorialEngorde">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoHistorialEngorde</string>
+    <string name="ConsultaHistorialLeche">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaHistorialLeche</string>
+    <string name="ManutencaoHistorialLeche">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoHistorialLeche</string>
+    <string name="ConsultaVentaGado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaVentaGado</string>
+    <string name="ManutencaoVentaGado">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoVentaGado</string>
+    <string name="ConsultaSolo">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaSolo</string>
+    <string name="ManutencaoSolo">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoSolo</string>
+    <string name="ManutencaoSolo2">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoSolo2</string>
+    <string name="ConsultaCoordenadas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaCoordenadas</string>
+    <string name="ManutencaoSectores_Coordenadas">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoSectores_Coordenadas</string>
+
+    <string name="ManutencaoSector">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoSector</string>
+
+    <string name="ManutencaoRegistro">http://201.24.26.23/brapro/wsSegurancaBraPro/api/Seguranca/ManutencaoRegistro</string>
+
+    <string name="ManutencaoAlterarSenha">http://201.24.26.23/brapro/wsSegurancaBraPro/api/Seguranca/ManutencaoAlterarSenha</string>
+
+
+    <string name="ConsultaUsers">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaUsers</string>
+    <string name="ConsultaUsuarioAtivar">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ConsultaUsuarioAtivar</string>
+    <string name="ManutencaoUsuarioAtivar">http://201.24.26.23/brapro/wsSiteBraPro/api/Site/ManutencaoUsuarioAtivar</string>
+
+    <!--    string menu-->
+
+    <string name="sector_item">Setor</string>
+    <string name="cultivo_item">Safra</string>
+    <string name="cosecha_item">Colheita</string>
+    <string name="plaga_item">Praga</string>
+    <string name="cotacoe_item">Cotacoe</string>
+    <string name="cliente_item">Cliente</string>
+    <string name="maquinaria_item">Maquinaria</string>
+    <string name="empleado_item">Empregado</string>
+    <string name="alertaplaga_item">Alerta praga</string>
+
+
+    <string name="stringlogin">Login</string>
+    <string name="stringSenha">Senha</string>
+    <string name="btextlogin">Login</string>
+    <string name="btextlogoff">Logoff</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="action_search">Pesquisa</string>
+    <string name="action_new">Novo</string>
+    <string name="action_settings">Atualizar</string>
+    <string name="tvlista">Lista</string>
+    <string name="tvwebview">webview</string>
+    <string name="textoCosecha">Colheita</string>
+    <string name="NuevaCosecha">Nova colheita</string>
+    <string name="salvar">Salvar</string>
+    <string name="NuevoCultivo">Nova safra</string>
+    <string name="tx_sector">Setor</string>
+    <string name="tx_inicio">Data de inicio</string>
+    <string name="tx_fim">Data fim</string>
+    <string name="tx_cosecha">Colheita</string>
+    <string name="NovoCliente">Novo cliente</string>
+    <string name="tx_nombre">Nome</string>
+    <string name="tx_organizacion">Organizacion</string>
+    <string name="tx_numero">Número</string>
+    <string name="tx_direccion">Endereço</string>
+    <string name="tx_Area">Area</string>
+    <string name="tx_Cliente">Cliente Info</string>
+    <string name="tx_NovoEmpleado">Novo empregado</string>
+    <string name="tx_fecha_contratacion">Data de contratação</string>
+    <string name="tx_edad">Edad</string>
+    <string name="tx_rol">Rol</string>
+    <string name="tx_Empleado">Empregado Info</string>
+    <string name="tx_NovoMaquinaria">Nova maquinaria</string>
+    <string name="tx_registro">Registro</string>
+    <string name="tx_fecha_adquisicion">Data de aquisição</string>
+    <string name="tx_precio">Preco</string>
+    <string name="tx_tipo">Tipo</string>
+    <string name="tx_descripcion">Descrição</string>
+    <string name="tx_modelo">Modelo</string>
+    <string name="tx_Maquinaria_Info">Maquinaria Info</string>
+    <string name="tx_Cotacoe_info">Cotacoe Info</string>
+    <string name="tx_novo_alertaplaga">Novo alerta de praga</string>
+    <string name="tx_plaga">Praga</string>
+    <string name="tx_fecha">Data</string>
+    <string name="tx_estado">Estado</string>
+    <string name="tx_imagen">Imagen</string>
+    <string name="tx_alertaplaga">Alerta da pragas Info</string>
+    <string name="tx_visitas">Visitas</string>
+    <string name="tx_motivo">Razão</string>
+    <string name="tx_obs">Obs</string>
+    <string name="tx_situcao">Situcao</string>
+    <string name="tx_negociacoes">Negociacoes</string>
+    <string name="tx_cpf">Cpf do Produtor</string>
+    <string name="tx_nome_productor">Nome do produtor</string>
+    <string name="tx_tipo_do_local">Tipo do local</string>
+    <string name="tx_local">Local</string>
+    <string name="tx_producto">Produto</string>
+    <string name="tx_taxa_do_dolar">Taxa do dolars</string>
+    <string name="tx_valor_negociaco">Valor da negociacao</string>
+    <string name="tx_dato_pagamento">Dato de pagamento</string>
+    <string name="tx_tipo_producto">Tipo de produto</string>
+    <string name="tx_fecha_registro">Data de registro</string>
+    <string name="tx_fecha_expiracion">Data de expiração</string>
+    <string name="tx_funcion">Função</string>
+    <string name="tx_composicion">Composição</string>
+    <string name="tx_objeto">Objeto</string>
+    <string name="tx_despesas">Despesas</string>
+    <string name="tx_data_despesa">Data de despesa</string>
+    <string name="tx_valor">Valor</string>
+    <string name="tx_alterar_senha">Alterar Senha</string>
+    <string name="tx_nova_senha">Nova Senha</string>
+    <string name="tx_confirma_senha">Confirma senha</string>
+    <string name="tx_data_envio">Data envio</string>
+    <string name="tx_assunto">Assunto</string>
+    <string name="tx_mensagem">Mensagem</string>
+    <string name="tx_latitude">Latitude</string>
+    <string name="tx_longitude">Longitude</string>
+    <string name="tx_tipo_do_ponto">Tipo do ponto</string>
+    <string name="tx_endereco">Endereco</string>
+    <string name="tx_observacaos">Observacoes</string>
+    <string name="tx_latitud_longitud">Latitude - Longitude</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="estado_alerta_plaga_array">
+        <item>Infecção</item>
+        <item>OK</item>
+    </string-array>
+    <string name="title_activity_mapa_google_maps">Map</string>
+    <string name="title_activity_mapa_google">Map</string>
+    <string name="tx_nombre_tarea">Nome da tarefa</string>
+    <string name="tx_empleado">Empregado</string>
+    <string name="tx_maquinaria">Máquinas</string>
+    <string name="tx_tipo_tarea">Tipo de área</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="tx_contacto_numero">Número de contacto</string>
+    <string name="tx_tareas">Tarefas</string>
+    <string name="tx_photo">Photo</string>
+    <string name="tx_salario">Salário</string>
+    <string name="tx_balance">Balance</string>
+    <string name="tx_lote">Lote</string>
+    <string name="tx_custo">Custo</string>
+    <string name="tx_premios" />
+    <string name="tx_premios2">Premio</string>
+    <string name="tx_data_actualizacao">Data de atualização</string>
+    <string name="tx_elemento">Elemento</string>
+    <string name="tx_custo_mantenimento">Custo de manutenção</string>
+    <string name="tx_vida_util">Vida util / horas </string>
+    <string name="tx_fin_de_contrato">Fim de contrato</string>
+    <string name="tx_tipo_contrato">Tipo de contrato</string>
+    <string name="tx_tempo">Tempo</string>
+    <string name="tx_vida_util_ano">Vida util / ano</string>
+    <string name="tx_tipo_adquisicion">Tipo de adquisicao</string>
+    <string name="tx_potencia_maquinaria">Potência da máquina</string>
+    <string name="tx_cantidad_producto">Quantidade de produto</string>
+    <string name="tx_hectareas_trabajadas">Hectares trabalhadas</string>
+    <string name="tx_horas_trabajadas">Horas trabalhadas</string>
+    <string name="tx_kilos">Kilos</string>
+    <string name="tx_peso_inicial">Peso inicial</string>
+    <string name="tx_tipo_adquisicao">Tipo de adquisicao</string>
+    <string name="tx_gado">Gado</string>
+    <string name="tx_madre">Mae</string>
+    <string name="tx_registro_engorde">Registro do engorde</string>
+    <string name="tx_peso">Peso</string>
+    <string name="tx_data_medicao">Data de medicao</string>
+    <string name="tx_cantidad">Quantidade</string>
+    <string name="tx_fecha_obtencao">Data de obtencao</string>
+    <string name="tx_registro_consumo">Registro do consumo</string>
+    <string name="tx_registro_leche">Registro leite</string>
+    <string name="tx_fecha_venta">Data de venda</string>
+    <string name="tx_venta_gado">Venda gado</string>
+    <string name="tx_consulta_solo">Consulta do solo</string>
+    <string name="tx_data_consulta">Data de consulta</string>
+    <string name="tx_fosforo">Fosforo</string>
+    <string name="tx_potasio">Potasio</string>
+    <string name="tx_calcio">Calcio</string>
+    <string name="tx_magnesio">Magnesio</string>
+    <string name="tx_aluminio">Aluminio</string>
+    <string name="tx_material_organico">Material organico</string>
+    <string name="tx_hidrogeno">Hidrogeno</string>
+    <string name="tx_ph">Ph</string>
+    <string name="tx_status">Status</string>
+    <string name="tx_generar">Gerar</string>
+    <string name="tx_solo_detail">info do solo</string>
+    <string name="delete">Excluir</string>
+    <string name="crear">Criar</string>
+    <string name="email">Email</string>
+    <string name="registrar">Registro</string>
+    <string name="cpf">Cpf</string>
+    <string name="hoje">Hoje</string>
+    <string name="ativar">ativar</string>
+    <string name="desativar">desativar</string>
+
+
+</resources>
